@@ -1,5 +1,3 @@
--- LocalScript (di StarterPlayerScripts)
-
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -101,3 +99,5 @@ RunService.RenderStepped:Connect(function()
   bodyGyro.CFrame = cam.CFrame
  end
 end)
+
+print("Fly GUI Loaded for", player.Name)
